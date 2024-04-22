@@ -86,7 +86,7 @@ warn_unreachable = true
 
 # You can disable imports or control per-module/file settings here
 [[tool.mypy.overrides]]
-module = [ "numpy.*", "awkward.*", "uproot.*", "ROOT.*"]
+module = [ "numpy.*", "awkward.*", "uproot.*", "ROOT.*", "manim.*"]
 ignore_missing_imports = true
 
 [tool.pixi.project]
